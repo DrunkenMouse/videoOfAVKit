@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163CA3131D39FEA400551101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA3121D39FEA400551101 /* main.m */; };
+		163CA3161D39FEA400551101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA3151D39FEA400551101 /* AppDelegate.m */; };
+		163CA31E1D39FEA400551101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163CA31D1D39FEA400551101 /* Assets.xcassets */; };
+		163CA3211D39FEA400551101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CA31F1D39FEA400551101 /* LaunchScreen.storyboard */; };
+		163CA32C1D39FEA500551101 /* ____AVKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA32B1D39FEA500551101 /* ____AVKitTests.m */; };
+		163CA3371D39FEA500551101 /* ____AVKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA3361D39FEA500551101 /* ____AVKitUITests.m */; };
+		163CA3451D3A046600551101 /* Alizee_La_Isla_Bonita副本.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 163CA3441D3A046600551101 /* Alizee_La_Isla_Bonita副本.mp4 */; };
+		163CA3481D3A053F00551101 /* playerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA3471D3A053F00551101 /* playerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163CA3281D39FEA500551101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163CA3061D39FEA400551101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163CA30D1D39FEA400551101;
+			remoteInfo = "视频播放AVKit";
+		};
+		163CA3331D39FEA500551101 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163CA3061D39FEA400551101 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163CA30D1D39FEA400551101;
+			remoteInfo = "视频播放AVKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163CA30E1D39FEA400551101 /* 视频播放AVKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视频播放AVKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CA3121D39FEA400551101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163CA3141D39FEA400551101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163CA3151D39FEA400551101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163CA31D1D39FEA400551101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163CA3201D39FEA400551101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163CA3221D39FEA400551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA3271D39FEA500551101 /* 视频播放AVKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频播放AVKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CA32B1D39FEA500551101 /* ____AVKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____AVKitTests.m"; sourceTree = "<group>"; };
+		163CA32D1D39FEA500551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA3321D39FEA500551101 /* 视频播放AVKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "视频播放AVKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		163CA3361D39FEA500551101 /* ____AVKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____AVKitUITests.m"; sourceTree = "<group>"; };
+		163CA3381D39FEA500551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA3441D3A046600551101 /* Alizee_La_Isla_Bonita副本.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alizee_La_Isla_Bonita副本.mp4"; sourceTree = "<group>"; };
+		163CA3461D3A053F00551101 /* playerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerViewController.h; sourceTree = "<group>"; };
+		163CA3471D3A053F00551101 /* playerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163CA30B1D39FEA400551101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA3241D39FEA500551101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA32F1D39FEA500551101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163CA3051D39FEA400551101 = {
+			isa = PBXGroup;
+			children = (
+				163CA3101D39FEA400551101 /* 视频播放AVKit */,
+				163CA32A1D39FEA500551101 /* 视频播放AVKitTests */,
+				163CA3351D39FEA500551101 /* 视频播放AVKitUITests */,
+				163CA30F1D39FEA400551101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163CA30F1D39FEA400551101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163CA30E1D39FEA400551101 /* 视频播放AVKit.app */,
+				163CA3271D39FEA500551101 /* 视频播放AVKitTests.xctest */,
+				163CA3321D39FEA500551101 /* 视频播放AVKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163CA3101D39FEA400551101 /* 视频播放AVKit */ = {
+			isa = PBXGroup;
+			children = (
+				163CA3441D3A046600551101 /* Alizee_La_Isla_Bonita副本.mp4 */,
+				163CA3141D39FEA400551101 /* AppDelegate.h */,
+				163CA3151D39FEA400551101 /* AppDelegate.m */,
+				163CA31D1D39FEA400551101 /* Assets.xcassets */,
+				163CA31F1D39FEA400551101 /* LaunchScreen.storyboard */,
+				163CA3221D39FEA400551101 /* Info.plist */,
+				163CA3111D39FEA400551101 /* Supporting Files */,
+				163CA3461D3A053F00551101 /* playerViewController.h */,
+				163CA3471D3A053F00551101 /* playerViewController.m */,
+			);
+			path = "视频播放AVKit";
+			sourceTree = "<group>";
+		};
+		163CA3111D39FEA400551101 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163CA3121D39FEA400551101 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		163CA32A1D39FEA500551101 /* 视频播放AVKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				163CA32B1D39FEA500551101 /* ____AVKitTests.m */,
+				163CA32D1D39FEA500551101 /* Info.plist */,
+			);
+			path = "视频播放AVKitTests";
+			sourceTree = "<group>";
+		};
+		163CA3351D39FEA500551101 /* 视频播放AVKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				163CA3361D39FEA500551101 /* ____AVKitUITests.m */,
+				163CA3381D39FEA500551101 /* Info.plist */,
+			);
+			path = "视频播放AVKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163CA30D1D39FEA400551101 /* 视频播放AVKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CA33B1D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKit" */;
+			buildPhases = (
+				163CA30A1D39FEA400551101 /* Sources */,
+				163CA30B1D39FEA400551101 /* Frameworks */,
+				163CA30C1D39FEA400551101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视频播放AVKit";
+			productName = "视频播放AVKit";
+			productReference = 163CA30E1D39FEA400551101 /* 视频播放AVKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163CA3261D39FEA500551101 /* 视频播放AVKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CA33E1D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKitTests" */;
+			buildPhases = (
+				163CA3231D39FEA500551101 /* Sources */,
+				163CA3241D39FEA500551101 /* Frameworks */,
+				163CA3251D39FEA500551101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163CA3291D39FEA500551101 /* PBXTargetDependency */,
+			);
+			name = "视频播放AVKitTests";
+			productName = "视频播放AVKitTests";
+			productReference = 163CA3271D39FEA500551101 /* 视频播放AVKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163CA3311D39FEA500551101 /* 视频播放AVKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163CA3411D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKitUITests" */;
+			buildPhases = (
+				163CA32E1D39FEA500551101 /* Sources */,
+				163CA32F1D39FEA500551101 /* Frameworks */,
+				163CA3301D39FEA500551101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163CA3341D39FEA500551101 /* PBXTargetDependency */,
+			);
+			name = "视频播放AVKitUITests";
+			productName = "视频播放AVKitUITests";
+			productReference = 163CA3321D39FEA500551101 /* 视频播放AVKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163CA3061D39FEA400551101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					163CA30D1D39FEA400551101 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TP2S3N87D;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					163CA3261D39FEA500551101 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 163CA30D1D39FEA400551101;
+					};
+					163CA3311D39FEA500551101 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 163CA30D1D39FEA400551101;
+					};
+				};
+			};
+			buildConfigurationList = 163CA3091D39FEA400551101 /* Build configuration list for PBXProject "视频播放AVKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163CA3051D39FEA400551101;
+			productRefGroup = 163CA30F1D39FEA400551101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163CA30D1D39FEA400551101 /* 视频播放AVKit */,
+				163CA3261D39FEA500551101 /* 视频播放AVKitTests */,
+				163CA3311D39FEA500551101 /* 视频播放AVKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163CA30C1D39FEA400551101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CA3211D39FEA400551101 /* LaunchScreen.storyboard in Resources */,
+				163CA31E1D39FEA400551101 /* Assets.xcassets in Resources */,
+				163CA3451D3A046600551101 /* Alizee_La_Isla_Bonita副本.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA3251D39FEA500551101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA3301D39FEA500551101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163CA30A1D39FEA400551101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CA3481D3A053F00551101 /* playerViewController.m in Sources */,
+				163CA3161D39FEA400551101 /* AppDelegate.m in Sources */,
+				163CA3131D39FEA400551101 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA3231D39FEA500551101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CA32C1D39FEA500551101 /* ____AVKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163CA32E1D39FEA500551101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163CA3371D39FEA500551101 /* ____AVKitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163CA3291D39FEA500551101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163CA30D1D39FEA400551101 /* 视频播放AVKit */;
+			targetProxy = 163CA3281D39FEA500551101 /* PBXContainerItemProxy */;
+		};
+		163CA3341D39FEA500551101 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 163CA30D1D39FEA400551101 /* 视频播放AVKit */;
+			targetProxy = 163CA3331D39FEA500551101 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		163CA31F1D39FEA400551101 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163CA3201D39FEA400551101 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163CA3391D39FEA500551101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		163CA33A1D39FEA500551101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163CA33C1D39FEA500551101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "视频播放AVKit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		163CA33D1D39FEA500551101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "视频播放AVKit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		163CA33F1D39FEA500551101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "视频播放AVKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/视频播放AVKit.app/视频播放AVKit";
+			};
+			name = Debug;
+		};
+		163CA3401D39FEA500551101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "视频播放AVKitTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/视频播放AVKit.app/视频播放AVKit";
+			};
+			name = Release;
+		};
+		163CA3421D39FEA500551101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "视频播放AVKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "视频播放AVKit";
+			};
+			name = Debug;
+		};
+		163CA3431D39FEA500551101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "视频播放AVKitUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.----AVKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "视频播放AVKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163CA3091D39FEA400551101 /* Build configuration list for PBXProject "视频播放AVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CA3391D39FEA500551101 /* Debug */,
+				163CA33A1D39FEA500551101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163CA33B1D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CA33C1D39FEA500551101 /* Debug */,
+				163CA33D1D39FEA500551101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163CA33E1D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CA33F1D39FEA500551101 /* Debug */,
+				163CA3401D39FEA500551101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163CA3411D39FEA500551101 /* Build configuration list for PBXNativeTarget "视频播放AVKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163CA3421D39FEA500551101 /* Debug */,
+				163CA3431D39FEA500551101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163CA3061D39FEA400551101 /* Project object */;
+}
